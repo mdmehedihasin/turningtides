@@ -1,9 +1,9 @@
 # NOTICE
 
 TurningTides
-Copyright 2026 Team Delta X
+Copyright 2026 Team DeltaX
 
-Original code and content are licensed under the Apache License, Version 2.0 (see `LICENSE`).
+Original code and content are licensed under the Apache License, Version 2.0 (see `LICENSE.txt`).
 Data, fonts and libraries keep their own licences, listed below. Using TurningTides does not imply endorsement by any data provider.
 
 ## NASA and USGS data
@@ -66,10 +66,10 @@ Tiro Bangla, Anek Bangla, Anek Latin and IBM Plex Mono are licensed under the SI
 
 ## Software
 
-The web app bundles Preact, @preact/signals and the d3 modules d3-array, d3-geo, d3-scale and d3-shape (MIT or ISC licences). The pipeline uses open-source Python packages listed in `pipeline/requirements.txt`, each under its own licence.
+The web app bundles Preact, @preact/signals and the d3 modules d3-array, d3-geo, d3-scale and d3-shape (MIT or ISC licences). The data pipeline (not part of this published build) uses open-source Python packages, each under its own licence. The 3D Atlas uses MapLibre GL JS (BSD-3-Clause) and three.js (MIT).
 
 ## Map imagery (display only)
-- Esri World Imagery — Esri, Vantor, Earthstar Geographics, and the GIS User Community. Powered by Esri. Used for display at field zoom only; every number in TurningTides comes from NASA and ESA data.
+- Esri World Imagery — Esri, Vantor, Earthstar Geographics, and the GIS User Community. Powered by Esri. Used for display at field zoom only; every number in TurningTides comes from the datasets listed above, never from this imagery.
 - Sentinel-2 cloudless 2024 by EOX IT Services GmbH (contains modified Copernicus Sentinel data 2024), CC BY-NC-SA 4.0.
 - Terrain Tiles (Mapzen / Tilezen, AWS Registry of Open Data).
 
