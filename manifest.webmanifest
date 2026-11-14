@@ -1,0 +1,25 @@
+{
+  "name": "TurningTides · জমির ডাক্তার",
+  "short_name": "জমির ডাক্তার",
+  "description": "জমি, ফসল ও আবহাওয়ার পরামর্শ, বাংলাদেশের প্রতিটি ইউনিয়নের জন্য। Land, crop and weather advice for every union of Bangladesh.",
+  "lang": "bn",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#05070C",
+  "theme_color": "#05070C",
+  "categories": ["agriculture", "weather", "education"],
+  "icons": [
+    { "src": "brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    {
+      "src": "brand/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    { "src": "brand/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

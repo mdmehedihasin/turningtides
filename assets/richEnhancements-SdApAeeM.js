@@ -1,0 +1,1 @@
+function e(e=document.documentElement){e.dataset.rich=`ready`}export{e as enableRichEnhancements};

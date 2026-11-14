@@ -1,0 +1,157 @@
+{
+  "dataset": "Sentinel-2 L2A (ESA Copernicus) via Microsoft Planetary Computer",
+  "credit": "Contains modified Copernicus Sentinel data 2025-2026",
+  "window": "2025-12-01/2026-03-31",
+  "scenes": [
+    {
+      "scene_id": "S2B_MSIL2A_20251214T044109_R033_T45QYF_20251214T064242",
+      "datetime": "2025-12-14T04:41:09.024000Z",
+      "cloud": 1.2e-05,
+      "baseline": 5.11,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2C_MSIL2A_20251219T044221_R033_T45QYF_20251219T075114",
+      "datetime": "2025-12-19T04:42:21.025000Z",
+      "cloud": 0.000467,
+      "baseline": 5.11,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2B_MSIL2A_20260113T044039_R033_T45QYF_20260113T070956",
+      "datetime": "2026-01-13T04:40:39.024000Z",
+      "cloud": 0.000384,
+      "baseline": 5.11,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2C_MSIL2A_20260118T044131_R033_T45QYF_20260118T075208",
+      "datetime": "2026-01-18T04:41:31.025000Z",
+      "cloud": 0.000315,
+      "baseline": 5.11,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2B_MSIL2A_20260123T043959_R033_T45QYE_20260123T064016",
+      "datetime": "2026-01-23T04:39:59.024000Z",
+      "cloud": 0.000411,
+      "baseline": 5.11,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2B_MSIL2A_20260123T043959_R033_T45QYF_20260123T064016",
+      "datetime": "2026-01-23T04:39:59.024000Z",
+      "cloud": 0.000469,
+      "baseline": 5.11,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2C_MSIL2A_20260128T044041_R033_T45QYF_20260128T080011",
+      "datetime": "2026-01-28T04:40:41.025000Z",
+      "cloud": 6.8e-05,
+      "baseline": 5.11,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2C_MSIL2A_20260128T044041_R033_T45QYE_20260128T080011",
+      "datetime": "2026-01-28T04:40:41.025000Z",
+      "cloud": 0.000251,
+      "baseline": 5.11,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2C_MSIL2A_20260207T043951_R033_T45QYF_20260207T081310",
+      "datetime": "2026-02-07T04:39:51.025000Z",
+      "cloud": 0.000237,
+      "baseline": 5.12,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2B_MSIL2A_20260209T042829_R133_T45QYF_20260209T080910",
+      "datetime": "2026-02-09T04:28:29.024000Z",
+      "cloud": 0.000489,
+      "baseline": 5.12,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2A_MSIL2A_20260209T043901_R133_T45QYF_20260209T091708",
+      "datetime": "2026-02-09T04:39:01.024000Z",
+      "cloud": 0.000291,
+      "baseline": 5.12,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2B_MSIL2A_20260212T043809_R033_T45QYF_20260212T081425",
+      "datetime": "2026-02-12T04:38:09.024000Z",
+      "cloud": 0.0,
+      "baseline": 5.12,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2A_MSIL2A_20260212T044901_R033_T45QYF_20260212T092612",
+      "datetime": "2026-02-12T04:49:01.024000Z",
+      "cloud": 3.4e-05,
+      "baseline": 5.12,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2C_MSIL2A_20260227T043741_R033_T45QYF_20260227T074208",
+      "datetime": "2026-02-27T04:37:41.025000Z",
+      "cloud": 7e-05,
+      "baseline": 5.12,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2B_MSIL2A_20260304T043659_R033_T45QYF_20260304T083704",
+      "datetime": "2026-03-04T04:36:59.024000Z",
+      "cloud": 6e-06,
+      "baseline": 5.12,
+      "hrefs": null
+    },
+    {
+      "scene_id": "S2B_MSIL2A_20260304T043659_R033_T45QYE_20260304T083704",
+      "datetime": "2026-03-04T04:36:59.024000Z",
+      "cloud": 0.000201,
+      "baseline": 5.12,
+      "hrefs": null
+    }
+  ],
+  "first_date": "2025-12-14",
+  "last_date": "2026-03-04",
+  "clear_share": 0.9999,
+  "composite": "per-pixel median of SCL-clear pixels",
+  "enhancement": "joint percentile stretch 1.5-99.2 %, gamma 0.9; no synthetic pixels",
+  "water_mask": "McFeeters NDWI (B03 - B08) / (B03 + B08) > 0.05 on the median",
+  "ndvi": "(B08 - B04) / (B08 + B04) on the median, stored as (ndvi + 1) * 127.5",
+  "crs": "EPSG:3857",
+  "pixel_m": 10.0,
+  "size_px": [
+    1904,
+    1656
+  ],
+  "corners_lonlat": [
+    [
+      89.277537,
+      22.628638
+    ],
+    [
+      89.448577,
+      22.628638
+    ],
+    [
+      89.448577,
+      22.49126
+    ],
+    [
+      89.277537,
+      22.49126
+    ]
+  ],
+  "files": {
+    "true_2048": "s2_true_2048.webp",
+    "true_1280": "s2_true_1280.webp",
+    "false_2048": "s2_false_2048.webp",
+    "water_1024": "s2_water_1024.png"
+  },
+  "generated_utc": "2026-11-06T13:42:52Z"
+}
